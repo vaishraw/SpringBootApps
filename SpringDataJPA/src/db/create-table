@@ -1,0 +1,7 @@
+use mydb;
+create table product3(
+    id int AUTO_INCREMENT PRIMARY KEY, 
+    name varchar(255), 
+    description varchar(255),
+    price double
+);
