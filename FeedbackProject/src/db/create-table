@@ -1,0 +1,7 @@
+use mydb;
+create table feedback(
+    id int AUTO_INCREMENT PRIMARY KEY, 
+    name varchar(255), 
+    email varchar(255),
+    feedback varchar(255)
+);
